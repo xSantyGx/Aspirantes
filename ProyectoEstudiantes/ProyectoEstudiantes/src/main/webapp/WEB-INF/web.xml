@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<descrption>Proyecto para crud completo para pagina web</descrption>
+	<servlet>
+		<display-name>Servlet</display-name>
+		<servlet-name>Servlet</servlet-name>
+		<servlet-class>co.edu.unbosque.controller.Servlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Servlet</servlet-name>
+		<url-pattern>/Servlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<display-name>ServletListar</display-name>
+		<servlet-name>ServletListar</servlet-name>
+		<servlet-class>ServletListar</servlet-class>
+		<servlet-class>co.edu.unbosque.controller.ServletListar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ServletListar</servlet-name>
+		<url-pattern>/ServletListar</url-pattern>
+	</servlet-mapping>
+
+
+
+
+</web-app>
